@@ -74,26 +74,109 @@ header {
     color: black;
     
     
-  }
+}
+
  .col {
-    display: flex;
-    background-color: #12755A;
+    display: inline-block;
+    background-color: white;
+    justify-content: center;
+    align-items: flex-end;
    
-    
-   
- }
- .jumbotron {
-    background-color: #12755A;
- }
+}
  .logo2 {
-    max-width: 300px;
+   
+    max-width: 500px;
+    max-height: 300px;  
+   
+
  }
  .mockup {
-    display: flex;
-    max-width: 300px;
-    padding-left: 20px;
-    align-items: flex-end;
-    padding-bottom: 0px;
-    justify-content: center;
+    display: inline-blcok;
+    max-width: 350px;
     
+    align-items: flex-end;
+    padding-top: 40px;
+    padding-left: 80px;
+   
+    
+ }
+ .right {
+    display: inline-block;
+    align-items: flex-end;
+ }
+ .container {
+    background-color: #12755A;
+    
+    
+ }
+ .left {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+   
+ }
+ .col3 {
+    display: flex;
+    background-color: #1A728F;
+    justify-content: center;
+    align-items: flex-end;
+ }
+
+.mockup2 {
+   display: inline-block;
+   max-width: 1000px;
+
+   align-items: center;
+   justify-content: flex-start;
+   padding-right: 100px;
+  
+}
+
+.logo2 {
+   display: inline-block;
+   max-width: 400px;
+   max-height: 200px; 
+   align-items: center;
+   justify-content: center;
+   padding-left: 100px;
+   padding-top: 100px;
+  
+  
+
+}
+.col4 {
+    display: flex;
+    background-color: #12755A;
+   
+    height: 400px;
+    
+ }
+ .col5 {
+    display: flex;
+    background-color: #F2E5D1;
+   
+    height: 400px;
+    
+ }
+.challenge {
+    font-family: poppins;
+    font-weight:normal;
+    color: white; 
+    padding-left: 20px;
+    padding-top: 30px
+ }
+
+ p {
+    color: white;
+    font-family: poppins;
+    font-weight: light;
+    padding-left: 20px;
+ }
+ .problem {
+    font-family: poppins;
+    font-weight:normal;
+    color: white; 
+    padding-left: 20px;
+    padding-top: 30px
  }
