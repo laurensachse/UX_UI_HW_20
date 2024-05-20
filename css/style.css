@@ -147,9 +147,12 @@ header {
 }
 .col4 {
     display: flex;
+    text-wrap: wrap;
     background-color: #12755A;
-   
-    height: 400px;
+    height: 450px;
+    width: auto;
+    justify-content: center;
+    
     
  }
  .col5 {
@@ -163,7 +166,7 @@ header {
     font-family: poppins;
     font-weight:normal;
     color: white; 
-    padding-left: 20px;
+    padding-left: 40px;
     padding-top: 30px
  }
 
@@ -171,12 +174,43 @@ header {
     color: white;
     font-family: poppins;
     font-weight: light;
-    padding-left: 20px;
+    padding-left: 40px;
+    max-width: 500px;
  }
  .problem {
     font-family: poppins;
     font-weight:normal;
     color: white; 
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-top: 30px
+ }
+ .goal {
+    font-family: poppins;
+    font-weight:normal;
+    color: white; 
+    padding-left: 40px;
+    padding-top: 30px
+ }
+
+ .role {
+    font-family: poppins;
+    font-weight:normal;
+    color: white; 
+    padding-left: 40px;
+    padding-top: 30px
+ }
+
+ .timeline {
+    font-family: poppins;
+    font-weight:normal;
+    color: white; 
+    padding-left: 40px;
+    padding-top: 30px
+ }
+ .tools {
+    font-family: poppins;
+    font-weight:normal;
+    color: white; 
+    padding-left: 40px;
     padding-top: 30px
  }
